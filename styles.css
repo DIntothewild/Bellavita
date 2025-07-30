@@ -123,18 +123,28 @@ body {
     gap: 1.5rem;
     padding: 0 1rem;
   }
+  .hero {
+  height: 60vh;
+}
 
+  .hero-overlay {
+  align-items: center;
+  padding-top: 1rem;
+}
   .hero-content {
+    flex-direction: column;
     text-align: center;
     padding: 2rem;
   }
 
   .hero-content h1 {
     font-size: 2rem;
+    margin-left: 0;
   }
 
   .hero-content p {
     font-size: 1rem;
+    margin-bottom: 0;
   }
 
   .btn-wsp {
